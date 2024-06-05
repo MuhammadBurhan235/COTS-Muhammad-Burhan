@@ -10,7 +10,7 @@ name: Java CI with Maven CI/CD
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
   release:
     types: [created]
 
